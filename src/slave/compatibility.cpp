@@ -51,6 +51,14 @@ Try<Nothing> equal(
 }
 
 
+Try<Nothing> any(
+    const SlaveInfo& previous,
+    const SlaveInfo& current)
+{
+  return Nothing();
+}
+
+
 Try<Nothing> additive(
     const SlaveInfo& previous,
     const SlaveInfo& current)
